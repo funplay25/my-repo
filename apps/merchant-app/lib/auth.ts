@@ -21,7 +21,7 @@ export const authOptions = {
         provider: "google" | "github";
       };
     }) {
-      console.log("hi signin");
+      console.log("hi signin how are you");
       if (!user || !user.email) {
         return false;
       }
