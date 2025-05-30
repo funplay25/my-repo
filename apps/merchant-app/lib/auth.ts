@@ -22,6 +22,7 @@ export const authOptions = {
       };
     }) {
       console.log("hi signin");
+      console.log("hi sign in is here");
       if (!user || !user.email) {
         return false;
       }
